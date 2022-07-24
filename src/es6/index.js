@@ -85,4 +85,25 @@ console.log(global);
 
 const a = 'b';
 
+//PROPIEDAD DE OBJETOS MEJORADA
+
+//como se hacia antes
+let nombre = 'Andres';
+let edad = 24;
+
+obj = { name: nombre, age: edad};
+
+//como se hace en es6
+
+obj2 = {nombre,edad}; //solo debe ponerse el nombre de las variables directamente y estas se guardaran en el objeto con su valor
+console.log(obj2);
+
+const names = [
+    {name: 'Andres', age: 24},
+    {name:'Yesica', age:20}
+]
+
+
+
+
 
